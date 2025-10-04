@@ -25,10 +25,7 @@ fetch(url)
             document.querySelector('img').src=data[0].poster;
             document.querySelector('h4').innerText=data[0].full_line;
             document.querySelector('audio').src=data[0].audio;
-            document.querySelector('h5').innerText=data[0].current_wow_in_movie;
-
-
-    
+            document.querySelector('h5').innerText=data[0].current_wow_in_movie;  
 })
 
 
